@@ -1,0 +1,8 @@
+Big O Notation (O): Big O notation is used to describe the upper bound or worst-case scenario of the time complexity or space complexity of an algorithm. It provides an asymptotic upper bound on the growth rate of a function. In simpler terms, it describes the maximum amount of resources (time or space) required by an algorithm as the input size increases. For example, if an algorithm has a time complexity of O(n), it means that the algorithm's running time grows linearly or less than linearly with the input size.
+
+Theta Notation (Θ): Theta notation provides both the upper and lower bounds for the time complexity or space complexity of an algorithm. It represents the tight or average-case scenario. It indicates that the growth rate of a function is bounded both from above and below by the same function. For example, if an algorithm has a time complexity of Θ(n), it means that the algorithm's running time grows linearly with the input size.
+
+Omega Notation (Ω): Omega notation represents the lower bound or best-case scenario of the time complexity or space complexity of an algorithm. It provides an asymptotic lower bound on the growth rate of a function. It indicates that the function's growth rate is at least as fast as the given function. For example, if an algorithm has a time complexity of Ω(n), it means that the algorithm's running time grows at least linearly with the input size.
+
+In summary, Big O notation focuses on the upper bound or worst-case scenario, Theta notation provides both upper and lower bounds, and Omega notation represents the lower bound or best-case scenario. These notations help analyze and compare the efficiency and performance of algorithms.
+
