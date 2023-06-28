@@ -23,3 +23,25 @@ I will provide daily updates on my progress, sharing the concepts I've learned, 
 ## Code Organization
 The code in this repository is organized into separate folders for each Day. Each folder contains the implementation code along with examples and test cases. Feel free to explore and use the code for your own learning purposes.
 
+
+
+# THE JOURNEY
+
+### DAY 1
+- [x] Watched some tutorials on time and space complexity.  
+- [x] Did some questions on how to measure the time and space complexity for different functions.  
+- [x] Explored the concept of Auxiliary space.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
