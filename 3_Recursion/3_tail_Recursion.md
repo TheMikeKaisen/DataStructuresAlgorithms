@@ -48,4 +48,3 @@ Compatibility with functional programming: Tail recursion aligns well with funct
 3. Readability and maintainability: Tail recursion can make code more readable and easier to understand by organizing the recursion logic as the final step of the function. This can improve code maintainability and make it easier to reason about.
 
 4. Compatibility with functional programming: Tail recursion aligns well with functional programming principles, where recursion is often used instead of iterative loops. Functional programming languages typically provide support for tail call optimization, further enhancing the benefits of tail recursion.
-

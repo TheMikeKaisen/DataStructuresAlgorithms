@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/chako/MIKE/DataStructuresAlgorithm",
-      "program": "/Users/chako/MIKE/DataStructuresAlgorithm/build/Debug/outDebug"
+      "cwd": "/Users/chako/MIKE/DataStructuresAlgorithms",
+      "program": "/Users/chako/MIKE/DataStructuresAlgorithms/build/Debug/outDebug"
     }
   ]
 }

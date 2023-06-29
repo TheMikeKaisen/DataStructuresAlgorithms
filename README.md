@@ -33,7 +33,7 @@ The code in this repository is organized into separate folders for each Day. Eac
 - [x] Explored the concept of Auxiliary space.
 
 ### DAY 2
-- [ ] Study recursion.
+- [x] Study recursion.
 - [ ] 4 programs using recursion.
 - [ ] Basic mathematics questions.
 
