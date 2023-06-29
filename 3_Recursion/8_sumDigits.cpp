@@ -4,7 +4,6 @@
 using namespace std;
 
 // time complexity = Theta(number of digits)
-// auxiliary space = Theta(1)
 int sum(int n, int k = 0){
     if(n/10==0){
         return (k+n);
