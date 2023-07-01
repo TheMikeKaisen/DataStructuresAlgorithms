@@ -17,3 +17,9 @@
 - [x] Recursion
 - [x] Practice 5 questions
 - [ ] Basic maths
+
+
+
+## Day 4
+
+- [ ] Linked List
