@@ -22,4 +22,4 @@
 
 ## Day 4
 
-- [ ] Linked List
+- [x] Linked List
