@@ -32,3 +32,8 @@
 - Recursion
     - [x] Tower of Hanoi
     - [x] Josephus problem
+
+## Day 7
+- [x] doubly linked list and its operations
+- [x] circular linked list and its operations
+
