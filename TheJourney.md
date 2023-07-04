@@ -23,3 +23,10 @@
 ## Day 4
 
 - [x] Linked List
+
+
+## Day 5
+- Recursion
+    - [x] Tower of Hanoi
+    - [x] Josephus problem
+    
