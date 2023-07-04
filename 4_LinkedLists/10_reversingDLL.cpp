@@ -1,4 +1,4 @@
-// Doubly linked list : in a singly linked list, each element had an id of the next element of the list and the next id of last item was NULL. Whereas in doubly linked list, each element would contain the data and the id of both previous and next element in the list. previous item of the first element and the next item of the last item are both NULL.
+// program to reverse a doubly linked list
 
 #include<iostream>
 using namespace std;
@@ -25,6 +25,23 @@ void printList(Node *head){
     printList(curr->next);
 }
 
+// reversing the list.
+Node* reverseDLL(Node* head){
+    if(head==NULL || head->next == NULL){
+        return head;
+    }
+    Node* curr = head;
+    Node* p = NULL;
+    while(curr != NULL){
+        p = curr -> prev;
+        curr->prev = curr -> next;
+        curr->next = p;
+        curr = curr->prev;
+    }
+    return p->prev;
+}
+
+
 int main(){
     Node* head = new Node(4);
     Node* temp1 = new Node(6);
@@ -40,6 +57,7 @@ int main(){
     temp2->prev = temp1;
     temp3->prev =temp2;
 
+    head = reverseDLL(head);
     printList(head);
     cout << endl;
     

@@ -1,4 +1,4 @@
-// Doubly linked list : in a singly linked list, each element had an id of the next element of the list and the next id of last item was NULL. Whereas in doubly linked list, each element would contain the data and the id of both previous and next element in the list. previous item of the first element and the next item of the last item are both NULL.
+// deleting the last element of a linked list
 
 #include<iostream>
 using namespace std;
@@ -25,6 +25,28 @@ void printList(Node *head){
     printList(curr->next);
 }
 
+Node* findLast(Node* curr) {
+    if (curr->next->next == NULL)
+        return curr;
+    return findLast(curr->next);
+}
+
+
+// delete last element
+Node* deleteLast(Node* head) {
+    if (head == NULL)
+        return head;
+    if (head->next == NULL) {
+        delete head;
+        head = NULL;
+        return head;
+    }
+    Node* curr = findLast(head);
+    delete curr->next;
+    curr->next = NULL;
+    return head;
+}
+
 int main(){
     Node* head = new Node(4);
     Node* temp1 = new Node(6);
@@ -40,6 +62,7 @@ int main(){
     temp2->prev = temp1;
     temp3->prev =temp2;
 
+    head = deleteLast(head);
     printList(head);
     cout << endl;
     

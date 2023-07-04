@@ -1,3 +1,5 @@
+// deleting the head of a doubly linked list
+
 // Doubly linked list : in a singly linked list, each element had an id of the next element of the list and the next id of last item was NULL. Whereas in doubly linked list, each element would contain the data and the id of both previous and next element in the list. previous item of the first element and the next item of the last item are both NULL.
 
 #include<iostream>
@@ -25,6 +27,13 @@ void printList(Node *head){
     printList(curr->next);
 }
 
+Node* deleteHead(Node* head){
+    if(head==NULL || head->next == NULL) return head;
+    Node* curr = head;
+    head = head->next;
+    delete curr;
+    return head;
+}
 int main(){
     Node* head = new Node(4);
     Node* temp1 = new Node(6);
@@ -40,6 +49,7 @@ int main(){
     temp2->prev = temp1;
     temp3->prev =temp2;
 
+    head = deleteHead(head);
     printList(head);
     cout << endl;
     
