@@ -1,6 +1,6 @@
 // creating and printint a circular linked list
 // inserting at the beginning 
-// 
+// inserting node at the end
 
 #include <iostream>
 using namespace std;
@@ -75,7 +75,7 @@ int main()
     head = insertBegin(head, 145);
     printList(head);
     cout<<endl;
-    
+
     // inserting at the end
     head = insertEnd(head, 550);
     printList(head);

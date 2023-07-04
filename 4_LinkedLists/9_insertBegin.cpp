@@ -16,6 +16,7 @@ struct Node{
     }
 };
 
+// printing the list 
 void printList(Node *head){
     Node *curr = head;
     if(curr == NULL)
@@ -25,6 +26,7 @@ void printList(Node *head){
     printList(curr->next);
 }
 
+// inserting at the beginning
 Node* insertBegin(Node* head, int x){
     Node* curr= new Node(x);
     curr->next = head;
