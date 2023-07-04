@@ -26,7 +26,9 @@
 
 
 ## Day 5
+- Linked List
+
+## Day 6
 - Recursion
     - [x] Tower of Hanoi
     - [x] Josephus problem
-    
