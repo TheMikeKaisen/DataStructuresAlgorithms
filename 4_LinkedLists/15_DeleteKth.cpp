@@ -1,18 +1,17 @@
-// program to delete the haed of a circular linked list
+// program to delete Kth element of circular linked list
 
-#include <iostream>
+#include<iostream>
 using namespace std;
 
-struct Node
-{
+struct Node{
     int data;
     Node *next;
-    Node(int x)
-    {
+    Node(int x){
         data = x;
         next = NULL;
     }
 };
+
 // printing the values of circular linked list
 void printList(Node *head)
 {
@@ -28,35 +27,35 @@ void printList(Node *head)
 
 }
 
-
-Node* deleteHead(Node* head){
-    if(head==NULL || head->next==head){
+Node* DeleteKth(Node* head, int k){
+    if(head == NULL || head -> next == head){
         head = NULL;
         return head;
     }
-
     Node* curr = head;
-    do{
+    for(int i = 1; i<(k-1); i++){
         curr = curr->next;
-    }while(curr->next!=head);
-    curr->next = head->next;
-    curr = head;
-    head = head->next;
-    delete curr;
+    }
+    Node* c = curr->next;
+    curr ->next = c->next;
+    delete c;
     return head;
 }
-int main()
-{
-
+int main(){
     Node *head = new Node(300);
     head->next = new Node(400);
     head->next->next = new Node(500);
     head->next->next->next = new Node(600);
+    // connecting last node to the head node
     head->next->next->next->next = head;
-    
-    head = deleteHead(head);
-    printList(head);
-    cout << endl ;
 
+    head = DeleteKth(head, 3);
+    printList(head);
+    cout<<endl;
+
+    // Node* h = new Node(30);
+    // h->next = h;
+    // h = DeleteKth(h, 4);
+    // printList(h);
     return 0;
 }
