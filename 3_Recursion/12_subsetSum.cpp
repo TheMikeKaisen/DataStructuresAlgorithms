@@ -1,4 +1,4 @@
-// we will be given a sum and an array. We have to find the number of subsets who adds upto sum.
+// we will be given a sum and an array. We have to find the number of subsets which adds upto sum.
 
 #include<iostream>
 using namespace std;
