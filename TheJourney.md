@@ -37,3 +37,6 @@
 - [x] doubly linked list and its operations
 - [x] circular linked list and its operations
 
+## Day 8
+-[x] Recursion
+
