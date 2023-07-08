@@ -45,5 +45,6 @@ int main(){
     temp1->prev= head;
     
     printList(head);
+    cout << endl;
     return 0;
 }
