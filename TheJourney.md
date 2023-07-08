@@ -48,7 +48,7 @@
 -[x] Bubble Sort
 -[x] selection sort
 -[x] insertion sort
--[ ] merge sort
+-[x] merge sorta algorithm
 -[ ] linear search
 -[ ] binary search
 
