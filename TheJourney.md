@@ -40,3 +40,15 @@
 ## Day 8
 -[x] Recursion
 
+## Day 9
+-[x] backtracking basic concepts and questions
+-[x] linked list questions
+
+## Day 10
+-[x] Bubble Sort
+-[x] selection sort
+-[x] insertion sort
+-[ ] merge sort
+-[ ] linear search
+-[ ] binary search
+
