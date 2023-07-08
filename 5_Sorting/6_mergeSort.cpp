@@ -58,7 +58,7 @@ void mergeSort(int* arr, int l, int r){
     }
 }
 
-// printing the array
+// printing the array 
 void printArr(int arr[], int n){
     for (int i = 0; i < n; i++){
         cout << arr[i] << " ";

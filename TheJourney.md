@@ -48,7 +48,12 @@
 -[x] Bubble Sort
 -[x] selection sort
 -[x] insertion sort
--[x] merge sorta algorithm
+-[x] merge sort algorithm
 -[ ] linear search
 -[ ] binary search
+
+## Day 11
+-[x] merge sort
+-[x] binary search
+-[x] leet code questions
 

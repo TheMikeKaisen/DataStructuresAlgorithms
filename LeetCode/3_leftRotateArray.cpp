@@ -14,7 +14,7 @@ void printArr(int arr[], int n)
 void leftRotate(int arr[], int n, int k)
 {
     int j = 0;
-    while (j < k)
+    while (j <= k)
     {
         int n1 = arr[0];
         int i = 0;
