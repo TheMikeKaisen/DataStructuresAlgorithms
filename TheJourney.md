@@ -57,3 +57,12 @@
 -[x] binary search
 -[x] leet code questions
 
+## Day 12
+-[x] searching 
+-[x] leetcode
+
+## Day 13
+-[x] linked list questions on leetcode
+-[x] medium level array questions - leetcode
+
+
