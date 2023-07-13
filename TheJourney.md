@@ -65,4 +65,5 @@
 -[x] linked list questions on leetcode
 -[x] medium level array questions - leetcode
 
-
+## Day 14
+-[x] leetcode questions on arrays and linked list
