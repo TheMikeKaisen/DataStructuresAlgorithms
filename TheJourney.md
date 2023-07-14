@@ -67,3 +67,6 @@
 
 ## Day 14
 -[x] leetcode questions on arrays and linked list
+
+## Day 15
+-[x] leetcode quostions on arrays and linked list
