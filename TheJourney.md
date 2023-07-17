@@ -73,3 +73,7 @@
 
 ## Day 16
 -[x] studied the concept of hashing.
+
+## Day 17
+-[x] worked with matrix
+-[x] passing matrix as arguments 
