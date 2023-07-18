@@ -77,3 +77,6 @@
 ## Day 17
 -[x] worked with matrix
 -[x] passing matrix as arguments 
+
+## Day 18
+-[x] matrix questions on leetcode

@@ -58,6 +58,7 @@
     "ostream": "cpp",
     "iostream": "cpp",
     "chrono": "cpp",
-    "__config": "cpp"
+    "__config": "cpp",
+    "vector": "cpp"
   }
 }
