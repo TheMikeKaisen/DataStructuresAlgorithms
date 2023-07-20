@@ -83,3 +83,7 @@
 
 ## Day 19
 -[x] matrix questions 
+
+## Day 20
+-[x] creation stacks using arrays and linked list
+-[x] 4 problems (STACKS)
