@@ -87,3 +87,6 @@
 ## Day 20
 -[x] creation stacks using arrays and linked list
 -[x] 4 problems (STACKS)
+
+## Day 21
+-[x] medium level problems of stacks

@@ -18,7 +18,7 @@ vector<int> prevGreater(int arr[], int n){
             v.push_back(-1);
             s.push(arr[i]);
         }
-        if(arr[i] < s.top()){
+        else if(arr[i] < s.top()){
             v.push_back(s.top());
             s.push(arr[i]);
         }
