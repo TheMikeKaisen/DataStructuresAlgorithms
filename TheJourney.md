@@ -90,3 +90,6 @@
 
 ## Day 21
 -[x] medium level problems of stacks
+
+## Day 22
+-[x] stack
