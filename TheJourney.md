@@ -93,3 +93,7 @@
 
 ## Day 22
 -[x] stack
+
+## Day 23
+-[x] stack
+-[x] leetcode questions
