@@ -1,4 +1,5 @@
 // stock span problem
+// this is my own method of solivng this problem which would take two stacks and time complexity of O(n^2);
 
 #include<iostream>
 #include<vector>
