@@ -15,7 +15,7 @@ bool isSubSeq(string s1, string s2, int n, int m){
 }
 int main(){
     string s = "abcd";
-    // cout << isSubSeq(s, "asd", 4, 3) << endl;
+    cout << isSubSeq(s, "asd", 4, 3) << endl;
     // cout << s.sort() << endl;
 
     return 0;
