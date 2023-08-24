@@ -109,3 +109,8 @@
 
 ## Day 27
 -[x] queue concept
+
+## Day 28
+- concept of binary trees
+- creation
+- traversal

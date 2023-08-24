@@ -25,6 +25,7 @@ int main(){
     q.push(10);
     q.push(2);
     q.push(6);
-    cout << rev(q) << endl;
+    queue<int> q2 = rev(q);
+    
     return 0;
 }
