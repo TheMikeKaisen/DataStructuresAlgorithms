@@ -114,3 +114,7 @@
 - concept of binary trees
 - creation
 - traversal
+
+## Day 30
+- trees
+- leetcode questions on trees
