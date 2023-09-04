@@ -118,3 +118,8 @@
 ## Day 30
 - trees
 - leetcode questions on trees
+
+## Day 31
+- trees
+- leetcode
+- medium questions
